@@ -36,15 +36,18 @@ Below is a visual walkthrough of the application's core features:
 
 ### 1. The Inventory (My Collection)
 Users can view all their tracked silver items at a glance, showing the current patina level.
+
 <img src="./screenshots/1-inventory.jpg" width="250">
 
 ### 2. The Patina Dashboard (Live IoT Tracking)
 The core dashboard where the digital silver badge visually degrades based on environmental API data. Users can manually trigger a scan or polish the item.
+
 <img src="./screenshots/2-dashboard.jpg" width="250">
 
 
 ### 3. Growth Analytics (Data Visualization)
 A real-time data visualization screen pulling historical accumulation logs directly from Firebase Firestore.
+
 <img src="./screenshots/3-chart.jpg" width="250">
 
 
