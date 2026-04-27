@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040777059093",
+    "project_id": "patina-engine",
+    "storage_bucket": "patina-engine.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040777059093:android:19491e1de93d0a5b51671c",
+        "android_client_info": {
+          "package_name": "com.example.patina_engine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRHW9rAvuUDawhKMEF3MmPzFgOGeVgsZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

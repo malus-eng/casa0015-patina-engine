@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app needs access to location to track environmental factors for your silver accessories.</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>This app needs access to location to track environmental factors in the background.</string>
 </dict>
 </plist>
