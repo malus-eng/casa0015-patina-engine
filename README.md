@@ -6,11 +6,7 @@ Digital Patina is an innovative Connected Environments mobile application built 
 
 ---
 
-## 🎥 App Demonstration Video
 
-<video src="./QingshanLuo_0015.mp4" controls="controls" width="100%"></video>
-
----
 
 ## 🎨 User Personas & Storyboarding
 
