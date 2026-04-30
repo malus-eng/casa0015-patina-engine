@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Patina Sensor</title>
+    <style>
+        /* 页面暗黑复古主题样式 */
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: #f5f5f5; }
+        header { background: linear-gradient(135deg, #1e1e1e, #0a0a0a); padding: 80px 20px; text-align: center; border-bottom: 2px solid #333; }
+        header h1 { font-size: 3rem; margin: 0; letter-spacing: 2px; color: #B0BEC5; }
+        header p { font-size: 1.2rem; color: #888; max-width: 600px; margin: 20px auto; line-height: 1.6; }
+        .btn { display: inline-block; padding: 15px 30px; background-color: #D84315; color: white; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { background-color: #BF360C; }
+        
+        .container { max-width: 1000px; margin: 50px auto; padding: 0 20px; }
+        .section-title { text-align: center; font-size: 2rem; margin-bottom: 40px; color: #B0BEC5; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; }
+        .card { background-color: #1e1e1e; padding: 20px; border-radius: 10px; flex: 1; min-width: 250px; text-align: center; border: 1px solid #333; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+        .card h3 { color: #D84315; }
+        
+        .demo-section { text-align: center; margin-top: 60px; }
+        .demo-img { max-width: 100%; height: auto; border-radius: 10px; border: 2px solid #333; }
+        
+        footer { text-align: center; padding: 40px 20px; background-color: #0a0a0a; color: #666; margin-top: 60px; border-top: 1px solid #222; }
+    </style>
+</head>
+<body>
+
+    <!-- 顶栏头部 -->
+    <header>
+        <h1>DIGITAL PATINA SENSOR</h1>
+        <p>A Connected Environments application bridging the gap between physical material degradation and digital IoT tracking. Designed for 950 silver and Amekaji jewelry collectors.</p>
+        <a href="https://github.com/malus-eng/casa0015-patina-engine" class="target="_blank">View Project on GitHub</a>
+    </header>
+
+    <!-- 主体内容 -->
+    <div class="container">
+        
+        <!-- 问题陈述 -->
+        <h2 class="section-title">The Problem We Solve</h2>
+        <p style="text-align: center; color: #aaa; line-height: 1.8;">Traditional collectors have no way to digitally measure how their specific physical environment affects the aging and sulfation of their jewelry. This app continuously intercepts live atmospheric data in London to calculate and visualize the real-time patina accumulation.</p>
+
+        <!-- 核心功能网格 -->
+        <h2 class="section-title">Core Features</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Live IoT Integration</h3>
+                <p>Silently fetches Humidity and SO2 data via OpenWeather API using background automation.</p>
+            </div>
+            <div class="card">
+                <h3>Physics Algorithm</h3>
+                <p>Calculates realistic oxidation increments based on time exposure and air quality metrics.</p>
+            </div>
+            <div class="card">
+                <h3>Dynamic UI & Cloud</h3>
+                <p>Visual badges transition from silver to black, with historical growth curves backed by Firestore.</p>
+            </div>
+        </div>
+
+        <!-- 截图展示区 -->
+        <div class="demo-section">
+            <h2 class="section-title">Application Interface</h2>
+            <!-- 替换为你实际的截图路径 -->
+            <img src="./screenshots/你的截图1.jpg" alt="App Dashboard" class="demo-img" style="width: 30%;">
+            <img src="./screenshots/你的截图2.jpg" alt="App Growth Chart" class="demo-img" style="width: 30%;">
+        </div>
+
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>Designed & Developed by Qingshan Luo</p>
+        <p>CASA0015 Mobile Systems and Interactions | University College London (UCL)</p>
+    </footer>
+
+</body>
+</html>
